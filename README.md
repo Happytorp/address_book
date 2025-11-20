@@ -47,7 +47,8 @@ pip install -r requirements.txt
 
 
 # ▶️ Run the Application direclty**
-uvicorn main:app --reload
+
+uvicorn main:app --reload --host 0.0.0.0 --port 5000
 
 
 The API will be available at:
