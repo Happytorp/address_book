@@ -22,7 +22,6 @@ from models import Base, engine, SessionLocal, AddressModel
 from schemas import AddressOut, AddressCreate, AddressUpdate
 from crud import create_address, get_address, update_address, delete_address, get_all_addresses
 from utils import haversine_distance
-from decorators import log_input_output
 
 # Configure logging
 logging.basicConfig(
